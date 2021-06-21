@@ -5,26 +5,27 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Volkorn";
 }
 
 h2 {
-    color: #3046c5;
+    color: #1f961a;
 }
 
 header h2 {
-    color: #cec8ff;
+    color: #e0d4bc;
 }
 
 .site-footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: linear-gradient(#aaf7a2, white);
     padding: 20px 0;
+    text-decoration-color: #134b2c;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: linear-gradient(to right, #09d42b, #207747, #04362c);
     color: white;
 }
 
@@ -35,7 +36,7 @@ header h2 {
 }
 
 .navbar-dark{
-    background-color: #901CAD;
+    background-color: #134b2c;
 }
 
 .tab-content {
@@ -49,5 +50,5 @@ header h2 {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #0b532f;
 }
