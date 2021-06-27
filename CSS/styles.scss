@@ -1,4 +1,4 @@
-$color-primary: orange;
+$color-primary: rgb(9, 255, 0);
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -22,9 +22,9 @@ h2 {
 }
 
 header {
-    h2 {
-    color: $color-pale;
-    }
+     h2{
+    color: $color-pale; 
+     }
 }
 
 .site-footer {
@@ -36,7 +36,7 @@ header {
     margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: $color-secondary;
+    color: white;
 }
 
 .row-content {
@@ -45,7 +45,7 @@ header {
     min-height: 200px;
 }
 
-.navbar-dark {
+.navbar{
     background-color: $color-mid;
 }
 
@@ -56,7 +56,7 @@ header {
 }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,0.5);
+    background-color: $color-black-transparent;
 }
 
 .carousel {
@@ -70,14 +70,14 @@ header {
     z-index: 100;
 }
 
-#reserveButton {
+#reserveModal {
     .modal-header {
         background-color: $color-teal;
         color: white;
     }
 }
 
-#Login {
+#loginModal {
     .modal-header {
         background-color: $color-mid;
         color: white;
